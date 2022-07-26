@@ -1,0 +1,10 @@
+{
+    "SERIAL_MV_FRONT": "",
+    "ZONE_MV_FRONT": "",
+    "SERIAL_MV_BACK": "",
+    "ZONE_MV_BACK": "",
+    "MT_BUTTON_MAC": "",
+    "MT_BUTTON_LOCAL_ID": "",
+    "REVIEWING_INTERVAL_SECONDS": "300",
+    "NOTIFIYING_INTERVAL_SECONDS": "10000"
+}

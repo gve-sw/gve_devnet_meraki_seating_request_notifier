@@ -1,0 +1,141 @@
+        
+/*Masterpage*/
+    #footer-link-meraki{
+        height: 15px;
+    }
+    #footer-link-gve-devnet{
+        height: 30px;
+        bottom: 4px;
+        position: relative;
+    }
+    #time_location_note{
+        color: var(--cui-color-gray-500);
+        padding-top: 5px;
+        text-align: center;
+        font-size: var(--cui-font-size-sm);
+    }
+    /*Position footer at bottom. Even with less content.*/
+    .cui .content{
+        min-height: 93vh;
+    }
+    body.cui footer, body.cui .footer{
+        margin-top: 0;
+    }
+    /*Header*/
+    #header-logo{
+        font-size: 23px;
+    }
+
+/*Login*/  
+    .required-label{
+        color: var(--cui-form-label-color);
+    }    
+    #customer-logo{
+        height:76px;
+        margin-bottom: 10px;
+    }
+
+/*Left Menu*/
+.cui .sidebar{
+    padding-top: 30px;
+}
+
+/*Charts from chart.js*/
+.chartjs-render-monitor{
+    background-color: white;
+    padding: 10px;
+}
+
+/*list groups*/
+.list-group{
+    padding-left: 0 !important;
+}
+
+.list-group-item{
+    list-style-type: none;
+}
+
+#meraki_api h3{
+    margin-top: 20px;
+}
+
+.list-group-item .btn--link{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+}
+
+
+/*table*/
+.cui .responsive-table{
+    width: 100%;
+}
+
+
+/*Status elements*/
+.icon-check-outline{
+    color: #6abf4b;
+}
+
+.panel-icon{
+    margin: 20px 0;
+}
+
+.panel-icon:first-child{
+    margin: 0 0 20px 0;
+}
+
+.panel-icon:last-child{
+    margin: 20px 0 0 0;
+}
+
+/*PoV specific*/
+
+#space-loader .subheader{
+    width:100%; 
+    text-align: center; 
+    color: #67B346;
+}
+
+.upload-area{
+    margin:30px 0;
+}
+
+.upload-area input{
+    border:0;
+}
+
+.upload-area a{
+    float: right;
+}
+
+.step-subtext{
+    color: grey; 
+    font-size: 11px;
+}
+
+#notification-area{
+    height: 100vh;
+    width: 100vw;
+}
+#notification-area p{
+    line-height: 100vh;
+    font-size: 250px;
+}
+
+.notification-ok{
+    background-color: #079e14;
+}
+
+.notification-info{
+    background-color: #f7b946;
+}
+
+.notification-danger{
+    background-color: #d1036d;
+}
+
+.header-panel #customer-logo{
+    height:40px;
+    margin-top: 10px;
+}
