@@ -87,7 +87,7 @@ Form field descriptions:
 * MV Camera 1/2 - Zone: Use 0 for full screen with or without privacy windows or zone ID for Camera MV zone. Zone ID available under **Cameras** > **[Choose Camera]** > **Settings Tab** > **Sense Tab ** > **/merakimv/xxxx-xxxx-xxxx/{zone ID}**.
 
 * MT30 Button - Mac Address: Mac address of Meraki MT30 sensor in format XX:XX:XX:XX:XX:XX
-* MT30 Button - Local ID: Local ID of Meraki button sensor - available under **Environment** > **MQTT Broker** > **MQTT Topics** > **meraki/v1/mt/{local ID}/...**.
+* MT30 Button - Local ID: Local ID of Meraki button sensor - available under **Sensors** > **MONITOR** > **Sensors** > **MQTT Broker** > **MQTT Topics** > **meraki/v1/mt/{local ID}/...**.
 
 * Reviewing Interval (ms): Milliseconds interval in which received MQTT MV messages are reviewed based on the timestamp of the message.
 * Notification Interval (ms): Time span between the first and second/escalated notification in milliseconds.
